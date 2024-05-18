@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import FormattedDate from '../FormattedDate';
-import Picture from '../Picture';
-import TitleLink from '../TitleLink';
+import React, { useEffect, useState } from 'react';
 import Description from '../Desciption';
-import Tech from '../Tech';
+import FormattedDate from '../FormattedDate';
 import Material from '../Material';
+import Picture from '../Picture';
+import Tech from '../Tech';
+import TitleLink from '../TitleLink';
 
 const ContentContainer = ({
     onInitial,

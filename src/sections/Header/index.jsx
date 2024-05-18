@@ -1,7 +1,6 @@
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import fileResume from '../../assets/resume.pdf';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {data} from '../contents/header';
+import { data } from '../contents/header';
 const Header = () => {
     return (
         <div className='flex flex-col gap-2'>

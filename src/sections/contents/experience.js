@@ -1,55 +1,20 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import nexunifyLogo from "../../assets/experient/nexunify.jpg"
 export const dataExp = [
     {
-        date: "2021 - 2022",
-        title: "Petcare Application",
-        link: "https://github.com/khunmostz/petcareapplication",
+        date: "2023 - 2024",
+        title: "Nexunify.co,.ltd",
         materials: [
-            {
-                type: faGithub,
-                link: "https://github.com/khunmostz/petcareapplication"
-            }
         ],
         descriptions: [
-            "PetCare is a Flutter application that allows users to find nearby veterinary clinics within a 5-kilometer radius and record their pet expenses. Users can view vaccination schedules provided by veterinarians, while veterinarians can perform health checkups on pets and record examination data."
+            `
+            At Nexunify, I integrated the UI Connect API (RESTful), implemented push notifications, and utilized native code to enhance performance. I connected BLE medical devices, published applications to the App Store and Google Play Store, and built white-label solutions for clients. Additionally, I worked on various development tasks to improve app stability, security, and user experience.
+            `
         ],
         skills: [
-            ["Flutter", "Firebase"],
+            ["Flutter","Native", "FCM", "NAT.io", "Argora", 'RESTful'],
         ],
+        pic: nexunifyLogo,
     },
-    {
-        date: "2021 - 2022",
-        title: "Petcare Application",
-        link: "https://github.com/khunmostz/petcareapplication",
-        materials: [
-            {
-                type: faGithub,
-                link: "https://github.com/khunmostz/petcareapplication"
-            }
-        ],
-        descriptions: [
-            "PetCare is a Flutter application that allows users to find nearby veterinary clinics within a 5-kilometer radius and record their pet expenses. Users can view vaccination schedules provided by veterinarians, while veterinarians can perform health checkups on pets and record examination data."
-        ],
-        skills: [
-            ["Flutter", "Firebase"],
-        ],
-    },
-    {
-        date: "2021 - 2022",
-        title: "Petcare Application",
-        link: "https://github.com/khunmostz/petcareapplication",
-        materials: [
-            {
-                type: faGithub,
-                link: "https://github.com/khunmostz/petcareapplication"
-            }
-        ],
-        descriptions: [
-            "PetCare is a Flutter application that allows users to find nearby veterinary clinics within a 5-kilometer radius and record their pet expenses. Users can view vaccination schedules provided by veterinarians, while veterinarians can perform health checkups on pets and record examination data."
-        ],
-        skills: [
-            ["Flutter", "Firebase"],
-        ],
-    },
-    
+
+
 ]
